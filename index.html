@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="./styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="side-bar">
+            <div class="logo"><img src="./logo.JPG" alt="logo" /></div>
+            <ul class="sidebar-menu">
+                <li class="active"><i class="fa fa-home" aria-hidden="true"></i></li>
+                <li><i class="fa fa-pie-chart" aria-hidden="true"></i></li>
+                <li><i class="fa fa-cog" aria-hidden="true"></i></li>
+                <li><i class="fa fa-info-circle" aria-hidden="true"></i></li>
+                <li><i class="fa fa-question-circle-o" aria-hidden="true"></i></li>
+            </ul>
+        </div>
+        <div class="content">
+            <header>
+                <h2>Dashboard</h2>
+                <div class="search"><i class="fa fa-search" aria-hidden="true"></i>
+                    <form action="/action_page.php">
+                        <input type="search" id="gsearch" name="gsearch" placeholder="Search">
+                    </form>
+                </div>
+            </header>
+            <div class="wrapper">
+                <section>
+                    <div class="tiles">
+                        <div class="tile tile-add">
+                            <div class="add-icon">+</div>
+                            <div class="title-txt">Add project</div>
+                        </div>
+                        <div class="tile tile-select">
+                            <div class="title-txt">Casual management</div>
+                            <p>Disruptive portfolio</p>
+                            <p class="date-txt">03-21-2020</p>
+                        </div>
+                        <div class="tile tile-unselect">
+                            <div class="title-txt">Document management</div>
+                            <p>Global sustain portfolio</p>
+                            <p class="date-txt">03-21-2020</p>
+                        </div>
+                        <div class="tile tile-unselect">
+                            <div class="title-txt">Procurement management</div>
+                            <p>Sustain portfolio</p>
+                            <p class="date-txt">06-21-2020</p>
+                        </div>
+                        <div class="tile tile-unselect">
+                            <div class="title-txt">Procurement management</div>
+                            <p>Sustain portfolio</p>
+                            <p class="date-txt">06-21-2020</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="tile tile-content sm1">
+                        <div class="tile-head-main">
+                            <div class="tile-head">
+                                <div class="title-txt">Casual management</div>
+                                <p>Disruptive portfolio</p>
+                            </div>
+                            <div class="tile-icon">
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                                <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="tile-body">
+                            <canvas id="myChart" width="500" height="320"></canvas>
+                            <div class="can-footer">JAN 20</div>
+
+                        </div>
+                        <div class="tile-footer-main">
+                            <div class="pagination">
+
+
+                            </div>
+
+                            <div class="refresh"><i class="fa fa-refresh" aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                    <div class="tile tile-content sm2">
+                        <div class="tile-head-main">
+                            <div class="tile-head">
+                                <div class="title-txt">Created</div>
+                                <p>JAN 20</p>
+                            </div>
+                            <div class="tile-icon">
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                                <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="tile-body">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th><i class="fa fa-square-o" aria-hidden="true"></i></th>
+                                        <th>Sr no</th>
+                                        <th>Application ID</th>
+                                        <th>Created by</th>
+                                        <th>Payment</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><i class="fa fa-square-o" aria-hidden="true"></i></td>
+                                        <td>1</td>
+                                        <td>AC123456</td>
+                                        <td>A V Nair</td>
+                                        <td>Completed</td>
+                                        <td><button>View</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-square-o" aria-hidden="true"></i></td>
+                                        <td>2</td>
+                                        <td>AC123456</td>
+                                        <td>B P Murthy</td>
+                                        <td>Completed</td>
+                                        <td><button>View</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-square-o" aria-hidden="true"></i></td>
+                                        <td>3</td>
+                                        <td>AC123456</td>
+                                        <td>A V Nair</td>
+                                        <td>Completed</td>
+                                        <td><button>View</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-square-o" aria-hidden="true"></i></td>
+                                        <td>4</td>
+                                        <td>AC123456</td>
+                                        <td>A V Nair</td>
+                                        <td>Completed</td>
+                                        <td><button>View</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-square-o" aria-hidden="true"></i></td>
+                                        <td>5</td>
+                                        <td>AC123456</td>
+                                        <td>B P Murthy</td>
+                                        <td>Completed</td>
+                                        <td><button>View</`button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-square-o" aria-hidden="true"></i></td>
+                                        <td>6</td>
+                                        <td>AC123456</td>
+                                        <td>A V Nair</td>
+                                        <td>Completed</td>
+                                        <td><button>View</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-square-o" aria-hidden="true"></i></td>
+                                        <td>7</td>
+                                        <td>AC123456</td>
+                                        <td>B P Murthy</td>
+                                        <td>Completed</td>
+                                        <td><button>View</button></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tile-footer-main">
+                            <div class="pagination">
+                                <div>&#60;<span class="pg-num">1</span>&#62;</div>
+                                <div class="page-items"><span>Page 1 / 2</span><span>Showing 7 items in the
+                                        listing</span>
+                                </div>
+                            </div>
+                            <div class="refresh"><i class="fa fa-refresh" aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.js"></script>
+    <script src="./chart.js"></script>
+</body>
+
+
+</html>
